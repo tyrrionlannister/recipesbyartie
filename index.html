@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/artie.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Artie Bucco's Vesuvio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="home-button">Recipe App</h1>
+        <form>
+          <input type="text" placeholder="Search for recipes" class="searchBox"/>
+          <button type="submit" class="searchBtn">Search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <div id="initial-view">
+        <img src="/The_Sopranos_-_Satriale's_Pork_Store.jpg" alt="Main Photo" id="main-photo" class="main-photo">
+        <h2>Search your recipes</h2>
+      </div>
+      <section>
+        <div class="recipe-container"></div>
+        <div class="recipe-details">
+          <button type="button" class="recipe-close-btn" aria-label="Close">
+            <i class="fas fa-times"></i>
+          </button>
+          <div class="recipe-details-content"></div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
